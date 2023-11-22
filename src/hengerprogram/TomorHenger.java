@@ -10,7 +10,7 @@ public class TomorHenger  extends Henger{
     }
     
     public TomorHenger(double r, double m) {
-        super(r, m);
+        this(r, m, 1);
     }
 
     public double getFajsuly() {
