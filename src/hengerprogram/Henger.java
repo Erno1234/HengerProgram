@@ -21,8 +21,8 @@ public class Henger {
     public double getMagassag() {
         return magassag;
     }
-    public double terfogat(){
-        return 0;
+    public double terfogat(){ 
+        return Math.pow(sugar,2)*Math.PI*magassag ;
     }
 
     @Override

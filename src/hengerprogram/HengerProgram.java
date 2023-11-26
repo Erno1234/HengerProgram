@@ -1,9 +1,11 @@
 package hengerprogram;
 
+import java.util.List;
+
 
 public class HengerProgram {
 
-    private Henger[] hengerek;
+    private List<Henger> hengerek;
 
     public HengerProgram() {
 
@@ -17,9 +19,9 @@ public class HengerProgram {
         return 0;
     }
 
-    /*private Henger lista() {
-        return Henger;
-    }*/
+     public List<Henger> lista() {
+        return hengerek;
+    }
 
     public void run() {
     }
