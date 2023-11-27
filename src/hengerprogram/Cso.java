@@ -20,8 +20,10 @@ public class Cso extends TomorHenger{
 
     @Override
     public double terfogat() {
-        return super.terfogat();
+        return super.terfogat(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }
+
+   
     
     @Override
     public String toString() {
